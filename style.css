@@ -40,11 +40,16 @@ main{
     flex-grow: 1;
     border: 3px solid #ffffff;
     box-shadow: 3px 3px 3px 3px #0000006c;
+    overflow: hidden;
 }
 .galeria-itens img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: all .8s linear;
+}
+.galeria-itens img:hover{
+    transform: scale(120%);
 }
 
 footer{
